@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="CSS/index.css">
+    <title>Sitio web Luis</title>
+     
+    
+    
+    <div class="menu-lateral" id="menuLateral">
+    <button class="cerrar-btn" onclick="cerrarMenu()">✖</button>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="pagina1.html">pagina1</a></li>
+      <li><a href="Pagina2.html">Pagina2</a></li>
+      <li><a href="pagina3.html">pagina3</a></li>
+            <li><a href="Pagina4.html">Pagina4</a></li>
+      <li><a href="pagina5.html">pagina5</a></li>
+      <li><a href="pagina6.html">pagina6</a></li>
+      <li><a href="pagina7.html">pagina7</a></li>
+      <li><a href="Tablas.html">tablas</a></li>
+    </ul>
+  </div>
+
+  <button class="abrir-menu" onclick="abrirMenu()">☰</button>
+
+  <script>
+    function abrirMenu() {
+      document.getElementById("menuLateral").classList.add("activo");
+    }
+
+    function cerrarMenu() {
+      document.getElementById("menuLateral").classList.remove("activo");
+    }
+  </script>
+
+</head>
+<body>
+    <h1>Bienvenidos</h1> 
+    <h2>A  mi pagina web</h2>
+    <H3>5TO BACO</H3>
+    <h4>Programacion cientifica comercial</h4>
+    <h5>Introduccion a HTML</h5>
+    <h6>Etiquetas  &lt; basicas</h6>
+    <p>Esta es una pagina web prototipo</p>  
+   <hr>
+    <br><br><br><br><br><br> 
+<img src="IMAGENES/OIP.jpg" alt="">
+<img src="IMAGENES/OIP (1).jpg" alt="">
+<img src="IMAGENES/OIP (2).jpg" alt="">
+<img src="IMAGENES/th.jpg" alt="">
+<img src="IMAGENES/descarga.jpg" alt="">
+
+   <p><a href="index.html">Regresar</a></p>
+   
+</body>
+</html>
