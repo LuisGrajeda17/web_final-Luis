@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f8ff;
+    color: #000000;
+    margin:  40px ;
+    text-align: center;
+}
+
+
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #000000;
+  padding: 20px;
+  transition: left 0.3s ease;
+  z-index: 999;
+  box-shadow: 4px 0 10px rgb(255, 255, 255);
+}
+
+.menu-lateral.activo {
+  left: 0;
+}
+
+.menu-lateral .cerrar-btn {
+  background-color: transparent;
+  border: 10px;
+  color: white;
+  font-size: 20px;
+  float: right;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-lateral ul li {
+  margin: 0px;
+ 
+  padding-top: 35px;
+}
+
+.menu-lateral ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu-lateral ul li a:hover {
+  color: #ccc;
+}
+
+.abrir-menu {
+  position: fixed;
+  top: 5px;
+  left: 10px;
+   background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 1000;
+  border-radius: 8px;
+}
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio web Luis</title>
+     
+</head>
+<body>
+    <h1>Bienvenidos</h1> 
+    <h2>A  mi pagina web</h2>
+    <H3>5TO BACO</H3>
+    <h4>Programacion cientifica comercial</h4>
+    <h5>Introduccion a HTML</h5>
+    <h6>Etiquetas  &lt; basicas</h6>
+    <p>Esta es una pagina web prototipo</p>  
+   <hr>
+    <br><br><br><br><br><br> 
+<img src="IMAGENES/OIP.jpg" alt="">
+<img src="IMAGENES/OIP (1).jpg" alt="">
+<img src="IMAGENES/OIP (2).jpg" alt="">
+<img src="IMAGENES/th.jpg" alt="">
+<img src="IMAGENES/descarga.jpg" alt="">
+
+     <p><a href="index.html">Regresar</a></p> 
+     
+</body>
+</html>
